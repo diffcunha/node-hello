@@ -1,0 +1,15 @@
+{
+  "acKind": "ImageManifest",
+  "acVersion": "0.0.1",
+  "name": "diogocunha.me/node-hello",
+  "app": {
+    "user": "root",
+    "group": "root",
+    "exec": [
+      "/usr/bin/npm", "start"
+    ]
+  },
+  "dependencies": [{
+    "app": "diogocunha.me/node"
+  }]
+}
